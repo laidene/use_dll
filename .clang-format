@@ -1,0 +1,41 @@
+---
+Language: Cpp
+BasedOnStyle: Google
+
+ColumnLimit: 120
+
+##
+## Indent Style
+##
+
+IndentWidth: 4
+AccessModifierOffset: -4
+TabWidth: 4
+UseTab: Never
+IndentPPDirectives: BeforeHash
+
+##
+## Align Style
+##
+
+AlignAfterOpenBracket: Align
+AlignEscapedNewlines: Left
+AlignTrailingComments: true
+
+##
+## SingleLine Style
+##
+
+BinPackParameters: false
+PackConstructorInitializers: Never
+BreakConstructorInitializersBeforeComma: false
+AlwaysBreakTemplateDeclarations: Yes
+
+##
+## Others
+##
+
+SortIncludes: Never
+Standard: c++17
+---
+

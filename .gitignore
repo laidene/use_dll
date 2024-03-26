@@ -1,0 +1,14 @@
+#个人工程文件
+*.user
+#个人认证文件
+*.lic
+#vs默认输出目录
+out
+#vs配置目录
+.vs
+
+#vs打开cmkae工程的生成目录
+build
+
+#vs打开cmkae的配置文件
+CMakeSettings.json
